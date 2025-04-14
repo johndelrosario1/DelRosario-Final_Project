@@ -1,4 +1,5 @@
 import { useState, useEffect, useCallback } from 'react';
+import { RevealOnScroll } from '../RevealOnScroll';
 
 export const Home = ({ isDarkMode }) => {
   const [typedName, setTypedName] = useState('');
@@ -29,9 +30,10 @@ export const Home = ({ isDarkMode }) => {
       className={`min-h-screen flex items-center justify-center relative ${isDarkMode ? 'bg-black' : 'bg-white'}`}
       style={{ paddingTop: '64px' }}
     >
+      <RevealOnScroll>
       <div className="flex flex-col md:flex-row items-center justify-center z-10 px-4">
         <div className="rounded-full overflow-hidden w-32 h-32 md:w-40 md:h-40 border-4 shadow-lg" style={{ borderColor: isDarkMode ? '#a855f7' : '#6366f1' }}>
-          <img src="src/components/images/Home Profile.png" alt="Profile" className="object-cover w-full h-full" />
+          <img src="src/assets/images/Home Profile.png" alt="Profile" className="object-cover w-full h-full" />
         </div>
         <div className="text-center md:text-left">
           <h1
@@ -46,6 +48,7 @@ export const Home = ({ isDarkMode }) => {
           </h2>
         </div>
       </div>
+      </RevealOnScroll>
     </section>
   );
 };

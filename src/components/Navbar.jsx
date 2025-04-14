@@ -27,7 +27,7 @@ export const Navbar = ({ menuOpen, setMenuOpen, isDarkMode, toggleTheme }) => {
             <a href="#home" className={`transition-colors ${isDarkMode ? 'text-gray-300 hover:text-white' : 'text-gray-700 hover:text-blue-900'}`}>
               Home
             </a>
-            <a href="#about" className={`transition-colors ${isDarkMode ? 'text-gray-300 hover:text-white' : 'text-gray-700 hover:text-blue-900'}`}>
+            <a href="#aboutme" className={`transition-colors ${isDarkMode ? 'text-gray-300 hover:text-white' : 'text-gray-700 hover:text-blue-900'}`}>
               About
             </a>
             <a href="#education" className={`transition-colors ${isDarkMode ? 'text-gray-300 hover:text-white' : 'text-gray-700 hover:text-blue-900'}`}>
@@ -35,9 +35,6 @@ export const Navbar = ({ menuOpen, setMenuOpen, isDarkMode, toggleTheme }) => {
             </a>
             <a href="#skills" className={`transition-colors ${isDarkMode ? 'text-gray-300 hover:text-white' : 'text-gray-700 hover:text-blue-900'}`}>
               Skills
-            </a>
-            <a href="#experience" className={`transition-colors ${isDarkMode ? 'text-gray-300 hover:text-white' : 'text-gray-700 hover:text-blue-900'}`}>
-              Experience
             </a>
             <a href="#contact" className={`transition-colors ${isDarkMode ? 'text-gray-300 hover:text-white' : 'text-gray-700 hover:text-blue-900'}`}>
               Contact

@@ -4,7 +4,10 @@ import './App.css';
 import { LoadingScreen } from './components/LoadingScreen';
 import { Navbar } from './components/Navbar';
 import { Home } from './components/Sections/Home';
-
+import { AboutMe } from'./components/Sections/AboutMe';
+import Education from './components/Sections/Education';
+import Skills from './components/Sections/Skills';
+import { Contact } from './components/Sections/Contact';
 function App() {
   const [isLoaded, setIsLoaded] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
@@ -24,7 +27,10 @@ function App() {
       >
         <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} isDarkMode={isDarkMode} toggleTheme={toggleTheme} />
         <Home isDarkMode={isDarkMode} />
-        
+        <AboutMe isDarkMode={isDarkMode}/>
+        <Education isDarkMode={isDarkMode}/>
+        <Skills isDarkMode={isDarkMode}/>
+        <Contact isDarkMode={isDarkMode}/>
       </div>
     </>
   );
