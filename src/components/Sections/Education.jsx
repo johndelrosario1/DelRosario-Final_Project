@@ -1,12 +1,12 @@
 import React from 'react';
 import { RevealOnScroll } from '../RevealOnScroll';
-import cert1 from '../../assets/images/cert1.jpg';
-import cert2 from '../../assets/images/cert2.jpg';
-import cert3 from '../../assets/images/cert3.jpg';
-import cert4 from '../../assets/images/cert4.jpg';
-import cert5 from '../../assets/images/cert5.jpg';
-import cert6 from '../../assets/images/cert6.jpg';
-import cert7 from '../../assets/images/cert7.jpg';
+import cert1 from '../../public/images/cert1.jpg';
+import cert2 from '../../public/images/cert2.jpg';
+import cert3 from '../../public/images/cert3.jpg';
+import cert4 from '../../public/images/cert4.jpg';
+import cert5 from '../../public/images/cert5.jpg';
+import cert6 from '../../public/images/cert6.jpg';
+import cert7 from '../../public/images/cert7.jpg';
 
 const Education = ({ isDarkMode }) => {
   const educationData = [

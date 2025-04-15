@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaFacebook, FaInstagram } from 'react-icons/fa';
 import { RevealOnScroll } from '../RevealOnScroll';
-import AboutMeImage from '../../assets/images/Aboutme.jpg'; // Import the image
+import AboutMeImage from '../../public/images/Aboutme.jpg'; // Import the image
 
 export const AboutMe = ({ isDarkMode }) => {
   const facebookURL = ' https://www.facebook.com/frvr.at21';
@@ -26,7 +26,7 @@ export const AboutMe = ({ isDarkMode }) => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <div>
             <img
-              src={AboutMeImage} // Use the imported image
+              src={AboutMeImage} 
               alt="John Manuel Del Rosario"
               className="rounded-lg shadow-lg"
             />

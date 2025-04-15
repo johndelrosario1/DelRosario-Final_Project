@@ -1,6 +1,6 @@
 import { useState, useEffect, useCallback } from 'react';
 import { RevealOnScroll } from '../RevealOnScroll';
-import ProfileImage from '../../assets/images/Home Profile.png'; // Import the image
+import ProfileImage from '../../public/images/Home Profile.png'; // Import the image
 
 export const Home = ({ isDarkMode }) => {
   const [typedName, setTypedName] = useState('');

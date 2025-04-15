@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import { RevealOnScroll } from '../RevealOnScroll';
-import MeImage from '../../assets/images/me.png'; // Import the image
+import MeImage from '../../public/images/me.png'; // Import the image
 
 const Skills = ({ isDarkMode }) => {
   const skillsData = [
