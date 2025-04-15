@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import { RevealOnScroll } from '../RevealOnScroll';
+import MeImage from '../../assets/images/me.png'; // Import the image
 
 const Skills = ({ isDarkMode }) => {
   const skillsData = [
@@ -94,7 +95,7 @@ const Skills = ({ isDarkMode }) => {
 
           <div className="rounded-lg shadow-lg overflow-hidden w-full max-w-md mx-auto lg:mx-0 hover:scale-105 transition-transform duration-300">
             <img
-              src="/src/assets/images/me.png"
+              src={MeImage} // Use the imported image
               alt="Your Profile"
               className="w-full h-auto object-cover aspect-square"
             />

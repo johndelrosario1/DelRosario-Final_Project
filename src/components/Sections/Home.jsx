@@ -1,5 +1,6 @@
 import { useState, useEffect, useCallback } from 'react';
 import { RevealOnScroll } from '../RevealOnScroll';
+import ProfileImage from '../../assets/images/Home Profile.png'; // Import the image
 
 export const Home = ({ isDarkMode }) => {
   const [typedName, setTypedName] = useState('');
@@ -33,7 +34,7 @@ export const Home = ({ isDarkMode }) => {
       <RevealOnScroll>
       <div className="flex flex-col md:flex-row items-center justify-center z-10 px-4">
         <div className="rounded-full overflow-hidden w-32 h-32 md:w-40 md:h-40 border-4 shadow-lg" style={{ borderColor: isDarkMode ? '#a855f7' : '#6366f1' }}>
-          <img src="src/assets/images/Home Profile.png" alt="Profile" className="object-cover w-full h-full" />
+          <img src={ProfileImage} alt="Profile" className="object-cover w-full h-full" /> {/* Use the imported image */}
         </div>
         <div className="text-center md:text-left">
           <h1

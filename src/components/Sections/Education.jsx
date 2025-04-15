@@ -1,5 +1,12 @@
 import React from 'react';
 import { RevealOnScroll } from '../RevealOnScroll';
+import cert1 from '../../assets/images/cert1.jpg';
+import cert2 from '../../assets/images/cert2.jpg';
+import cert3 from '../../assets/images/cert3.jpg';
+import cert4 from '../../assets/images/cert4.jpg';
+import cert5 from '../../assets/images/cert5.jpg';
+import cert6 from '../../assets/images/cert6.jpg';
+import cert7 from '../../assets/images/cert7.jpg';
 
 const Education = ({ isDarkMode }) => {
   const educationData = [
@@ -8,10 +15,10 @@ const Education = ({ isDarkMode }) => {
       institution: 'Baguio City National High School',
       years: '2021 - 2023',
       certificates: [
-        '/src/assets/images/cert1.jpg',
-        '/src/assets/images/cert2.jpg',
-        '/src/assets/images/cert3.jpg',
-        '/src/assets/images/cert4.jpg',
+        cert1,
+        cert2,
+        cert3,
+        cert4,
       ],
     },
     {
@@ -19,8 +26,8 @@ const Education = ({ isDarkMode }) => {
       institution: 'Baguio City National High School',
       years: '2020 - 2021',
       certificates: [
-        '/src/assets/images/cert5.jpg',
-        '/src/assets/images/cert6.jpg',
+        cert5,
+        cert6,
       ],
     },
     {
@@ -28,7 +35,7 @@ const Education = ({ isDarkMode }) => {
       institution: 'Dontogan Elementary School',
       years: '2017',
       certificates: [
-        '/src/assets/images/cert7.jpg',
+        cert7,
       ],
     },
   ];
